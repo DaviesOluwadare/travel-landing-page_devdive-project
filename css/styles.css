@@ -74,13 +74,105 @@ header nav button:hover {
 }
 
 
+/* Hero Section */
+
+.hero-image{
+    position: absolute;
+    right: 5em;
+    top: 5em;
+}
+
+.destinations {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #1b1515;
+    text-align: center;
+    width: 30em;
+    height: auto;
+    position: relative;
+    bottom: 30em;
+    margin-left: 7em;
+}
+
+.destination-h1{
+    color: rgb(248, 108, 108);
+    margin-bottom: 1em;
+    text-align: left;
+    
+   
+}
+
+.destination-h3{
+    color: rgb(17, 17, 105);
+    margin-bottom: 0.5em;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    line-height: 0.9em;
+}
+
+.destination-p{
+    color: gray;
+    margin-bottom: 1em;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+
+.Find-out{
+    background-color: #e9d416;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+    align-content: flex-start;
+}
+
+.Find-out:hover {
+    background-color: #41494e;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.player-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(185, 45, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+
+
 
 .hamburger-icon{
     font-size: 24px;
     display: none;
 }
-
-
 
 /* responsitivity/view hamburger on smaller screen  */
 @media screen and (max-width: 768px) {
