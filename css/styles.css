@@ -8,17 +8,26 @@
 body {
     font-family: Arial, sans-serif;
     color: #fff;
+    height: 4774px;
+    width: 1440px; 
+}
+
+.wrap{
+    position: relative;
+    width: 0 auto;
+    
+
 }
 
 /* Header */
 header {
     display: flex;
-    padding: 2em 5em;
+    padding: 2em 8em;
     text-align: center;
     justify-content: space-between;
     background-image: url(/travelWebLandingPage-Assets/Decore.png);
     background-repeat: no-repeat;
-    background-size: 42.5em;
+    background-size: 45.5em;
     background-position-x: right;
     height: 100vh;
 }
@@ -29,7 +38,7 @@ header nav ul {
     display: flex;
     text-align: center;
     font-weight: bold;
-    gap: 10px;
+    gap: 8px;
     
 }
 
@@ -78,8 +87,9 @@ header nav button:hover {
 
 .hero-image{
     position: absolute;
-    right: 5em;
-    top: 5em;
+    right: 8em;
+    bottom: 15em;
+    
 }
 
 .destinations {
@@ -94,7 +104,7 @@ header nav button:hover {
     height: auto;
     position: relative;
     bottom: 30em;
-    margin-left: 7em;
+    margin-left: 8em;
 }
 
 .destination-h1{
@@ -164,6 +174,49 @@ header nav button:hover {
     align-items: center;
     margin-right: 20px;
 }
+
+.category{
+    position: absolute;
+    /* bottom: 1px; */
+    left: 27em;
+    
+    
+
+    .cat-image{
+        position: absolute;
+        left: 50em;
+        bottom: 5em;
+        /* bottom: 1px; */
+        
+
+    }
+}
+
+.cat-container{
+    position: absolute;
+    bottom: 170px;
+    margin-left: 30%;
+    width: 25em;
+    justify-content: center;
+    align-items: center;
+    
+
+
+ .category-h1{
+    color: gray;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    }
+
+    .category-p{
+        color: rgb(17, 17, 105);
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px; 
+    }
+}
+
 
 
 
