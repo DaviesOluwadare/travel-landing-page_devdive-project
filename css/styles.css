@@ -115,6 +115,8 @@ main {
 
 }
 
+
+
 .destination-h1 {
   color: rgb(248, 108, 108);
   margin-bottom: 1em;
@@ -187,6 +189,7 @@ main {
   margin-right: 20px;
 }
 
+/* services */
 .services {
   display: flex;
   margin-bottom: 100px;
@@ -382,7 +385,7 @@ main {
   font-size: 12px;
   padding: 30px;
   position: relative;
-  
+
 
   .easy {
     margin-bottom: 15px;
@@ -393,8 +396,8 @@ main {
     justify-content: space-between;
     width: 100%;
 
-    
-    
+
+
   }
 
 
@@ -417,7 +420,7 @@ main {
       margin-top: 15px;
 
 
-      .choose{
+      .choose {
         width: 85%;
       }
 
@@ -425,39 +428,101 @@ main {
   }
 
 
-.right{
-  /* position: relative; */
-  
+  .right {
+    /* position: relative; */
 
-  .eclipse{
-    width: 300px;
+
+    .eclipse {
+      width: 300px;
+      position: absolute;
+      right: 5px;
+      bottom: 200px;
+      z-index: -1;
+    }
+
+
+
+    .greece-trip {
+      width: 400px;
+    }
+
+    .greece-trip2 {
+      width: 250px;
+      position: absolute;
+      right: 1px;
+      bottom: 120px;
+      z-index: 1;
+    }
+  }
+
+}
+
+.testimonials{
+  display: flex;
+  justify-content: space-between;
+
+  .test-left{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    width: 40%;
+
+    .h6-test{
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+
+    .p-test{
+     color: rgb(4, 4, 49);
+     font-size: 40px;
+     margin-bottom: 60px;
+     font-weight: 700;
+   }
+
+  }
+
+  .test-right{
+    position: relative;
+    .test-card{
+      width: 350px;
+      height: 150px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: hsl(0, 90%, 98%);
+      color: grey;
+      font-size: 12px;
+      line-height: 20px;
+    }
+
+    .p-testcard{
+      margin-bottom: 20px;
+    }
+  }
+
+  .test-card2{
+    width: 350px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: hsl(0, 45%, 94%);
+    color: grey;
+    font-size: 12px;
+    line-height: 20px;
     position: absolute;
-    right: 5px;
-    bottom: 200px;
+    right: -40px;
+    bottom: -50px;
     z-index: -1;
-  }
-  
- 
 
-  .greece-trip{
-    width: 400px;
+    .h3-testcard{
+      margin-top: 80px;
+    }
+
+
   }
 
-  .greece-trip2{
-    width: 250px;
-    position: absolute;
-    right: 1px;
-    bottom: 120px;
-    z-index: 1;
-  }
+
 }
 
- 
-
- 
-
-}
-}
 
 
 
