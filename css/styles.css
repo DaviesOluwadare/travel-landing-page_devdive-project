@@ -112,7 +112,7 @@ main {
 
 .girl-image {
   width: 60%;
-  
+
 }
 
 .destination-h1 {
@@ -132,6 +132,7 @@ main {
   line-height: 89px;
   position: relative;
 }
+
 .Decorez {
   position: absolute;
   top: 270px;
@@ -236,18 +237,21 @@ main {
     color: #3b3a3a;
     font-size: 10px;
     padding: 5px;
+
     /* border: 2px solid red; */
     img {
       max-width: 70px;
 
       margin-bottom: 15px;
     }
+
     .cards-h3 {
       font-size: 20px;
       font-weight: 700;
       margin-bottom: 15px;
       text-align: center;
     }
+
     .cards-p {
       font-size: 16px;
       font-weight: 400;
@@ -256,6 +260,7 @@ main {
       text-align: center;
     }
   }
+
   .two {
     display: flex;
     flex-direction: column;
@@ -266,18 +271,21 @@ main {
     border-radius: 15px;
     box-shadow: 20px, 30px, #fff;
     padding: 15px;
+
     /* border: 2px solid red; */
     img {
       margin-bottom: 15px;
       width: 150px;
       height: 150px;
     }
+
     .cards-h3 {
       font-size: 20px;
       font-weight: 700;
       margin-bottom: 15px;
       text-align: center;
     }
+
     .cards-p {
       font-size: 16px;
       font-weight: 400;
@@ -287,6 +295,171 @@ main {
     }
   }
 }
+
+.country {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  .top-selling {
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    font-size: 10px;
+    margin-bottom: 50px;
+
+    .top-destination {
+      color: rgb(18, 18, 73);
+      font-size: 30px;
+    }
+  }
+
+  .location-cont {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .location {
+    width: 350px;
+    position: relative;
+
+
+    .location-image {
+      width: 100%;
+    }
+
+    .loc-country {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      position: absolute;
+      padding: 10px;
+      bottom: 135px;
+      left: 59px;
+      width: 232px;
+      height: 100px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-color: #ffff;
+      color: grey;
+
+      .ten-days {
+        display: flex;
+        margin-top: 10px;
+
+      }
+
+
+    }
+
+    .navigation {
+      width: 10px;
+
+    }
+
+
+
+  }
+}
+
+.decore-1 {
+  /* height: 100px; */
+  width: 50px;
+  position: absolute;
+  right: 30px;
+  bottom: 180px;
+  z-index: -1;
+}
+
+.bookings {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  font-size: 12px;
+  padding: 30px;
+  position: relative;
+  
+
+  .easy {
+    margin-bottom: 15px;
+  }
+
+  .trip {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    
+    
+  }
+
+
+  .trip-h1 {
+    color: rgb(4, 4, 49);
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+  .left {
+    width: 40%;
+
+    .procedure-child {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+
+
+      .choose{
+        width: 85%;
+      }
+
+    }
+  }
+
+
+.right{
+  /* position: relative; */
+  
+
+  .eclipse{
+    width: 300px;
+    position: absolute;
+    right: 5px;
+    bottom: 200px;
+    z-index: -1;
+  }
+  
+ 
+
+  .greece-trip{
+    width: 400px;
+  }
+
+  .greece-trip2{
+    width: 250px;
+    position: absolute;
+    right: 1px;
+    bottom: 120px;
+    z-index: 1;
+  }
+}
+
+ 
+
+ 
+
+}
+}
+
+
 
 /* responsitivity/view hamburger on smaller screen  */
 @media screen and (max-width: 768px) {
@@ -311,7 +484,7 @@ main {
     cursor: pointer;
   }
 
-  .hamburger:checked + ul {
+  .hamburger:checked+ul {
     display: block;
   }
 }
