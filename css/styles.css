@@ -457,9 +457,11 @@ main {
 
 }
 
+/* Testimonials */
 .testimonials{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 80px;
 
   .test-left{
     display: flex;
@@ -521,6 +523,18 @@ main {
   }
 
 
+}
+
+/* Logos */
+.logos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .expedia{
+    width: 350px;
+    margin-top: 130px;
+  }
 }
 
 
