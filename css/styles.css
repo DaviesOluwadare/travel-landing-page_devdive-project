@@ -458,34 +458,35 @@ main {
 }
 
 /* Testimonials */
-.testimonials{
+.testimonials {
   display: flex;
   justify-content: space-between;
   margin-bottom: 80px;
 
-  .test-left{
+  .test-left {
     display: flex;
     flex-direction: column;
     color: gray;
     width: 40%;
 
-    .h6-test{
+    .h6-test {
       font-size: 13px;
       margin-bottom: 20px;
     }
 
-    .p-test{
-     color: rgb(4, 4, 49);
-     font-size: 40px;
-     margin-bottom: 60px;
-     font-weight: 700;
-   }
+    .p-test {
+      color: rgb(4, 4, 49);
+      font-size: 40px;
+      margin-bottom: 60px;
+      font-weight: 700;
+    }
 
   }
 
-  .test-right{
+  .test-right {
     position: relative;
-    .test-card{
+
+    .test-card {
       width: 350px;
       height: 150px;
       padding: 20px;
@@ -496,12 +497,12 @@ main {
       line-height: 20px;
     }
 
-    .p-testcard{
+    .p-testcard {
       margin-bottom: 20px;
     }
   }
 
-  .test-card2{
+  .test-card2 {
     width: 350px;
     height: 150px;
     padding: 20px;
@@ -515,7 +516,7 @@ main {
     bottom: -50px;
     z-index: -1;
 
-    .h3-testcard{
+    .h3-testcard {
       margin-top: 80px;
     }
 
@@ -526,16 +527,127 @@ main {
 }
 
 /* Logos */
-.logos{
+.logos {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  .expedia{
+  .expedia {
     width: 350px;
     margin-top: 130px;
   }
 }
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+  background-color: #e9eff3;
+  border-radius: 5px;
+  border-top-left-radius: 30px;
+  padding: 30px;
+  width: 100%;
+  position: relative;
+  
+
+  /* background-image: url(/travelWebLandingPage-Assets/Mask\ Group\ \(2\).png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 150px; */
+}
+
+.sub-info {
+  width: 80%;
+  justify-content: center;
+  text-align: center;
+  line-height: 40px;
+  /* background-image: url(/travelWebLandingPage-Assets/Mask\ Group\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: bottom left -300px;
+  background-size: 400px 200px; */
+
+
+
+  .p-sub {
+    color: rgb(39, 39, 109);
+    font-size: 35px;
+    margin-bottom: 30px;
+    
+
+  }
+}
+
+
+
+.input-group {
+  
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+
+
+.email-input {
+  background-image: url(/travelWebLandingPage-Assets/envelope.png);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+  background-size: 15px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  width: 350px;
+  margin-left: -100px;
+
+}
+
+.sub-btn {
+  background-color: rgb(238, 108, 108);
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.mask-image{
+
+  .mask1{
+    width: 260px;
+    position: absolute;
+    left: 5px;
+    top: 20px;
+  }
+
+  .mask2{
+    width: 120px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .logo-5{
+    position: absolute;
+    bottom: -50px;
+    right: -60px;
+    width: 100px;
+  }
+}
+
+footer{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-top: 150px;
+
+  .comp-desc{
+    margin-top: -70px;
+  }
+}
+
 
 
 
